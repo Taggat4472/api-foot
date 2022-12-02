@@ -14,7 +14,7 @@ import { GET_TOP_DATA } from "./ActionTypes";
 
 export const getTopscorerLocal = () => {
     return (dispatch) => {
-      return axios.get("http://localhost:3030/topscorers", {
+      return axios.get("http://localhost:3030/topscorer", {
         headers: {
           "X-security-header": "krashtest"
         }

@@ -3,7 +3,7 @@ import Footer from "../components/core/Footer";
 
 const MainLayout = ({ children }) => {
   const title = "Ma super app";
-  const navlink = ["Article", "Countries", "Foot", "Admin"];
+  const navlink = ["Meilleur Buteur", "Countries", "Foot", "Admin"];
   
   return (
     <div className="App">

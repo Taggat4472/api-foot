@@ -22,10 +22,10 @@ app.get('/leagues', (req, res) => {
 })
 
 app.get('/topscorer', (req, res) => {
-    res.json(require('./json/topscorer.json'))
+    res.json(require('./json/players-topscorers.json'))
 
 app.get('/topassists', (req, res) => {
-    res.json(require('./json/players-topscorers.json'))
+    res.json(require('./json/players-topassists.json'))
 })
 
 })

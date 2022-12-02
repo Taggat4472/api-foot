@@ -20,7 +20,8 @@ const ListCard = (props) => {
                 );
             })}
         </div>
-        </div>);
+       </div>
+    );
 };
 
 export default ListCard

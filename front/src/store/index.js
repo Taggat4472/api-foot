@@ -16,8 +16,11 @@ import { TopReducer } from "./reducers/TopReducers";
  * ******************* */
 const rootReducer = combineReducers({
   countries: CountriesReducer,
-  foot: FootReducer
+  foot: FootReducer,
+  top: TopReducer
+
 });
+
 
 /*
  * Store export
