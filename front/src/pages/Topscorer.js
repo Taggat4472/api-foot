@@ -1,5 +1,5 @@
 import MainLayout from "../layouts/MainLayout";
-import ListCard from "../components/top/ListCard";
+import ListCard from "../components/foot/ListCard";
 
 
 
